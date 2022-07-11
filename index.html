@@ -1,78 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./assets/css/style.css">
-        <title>Tara Evans</title>
-    </head>
-    <body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./assets/images/79812-woman-illustration-businessperson-professional-cartoon-women_16x16.ico"/> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Tara Evans</title>
+  </head>
 
-        <header>
-            <h1>Tara Evans</h1>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#about-me">About Me</a>
-                    </li>
-                    <li>
-                        <a href="#my-projects">My Projects</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contact Me</a>
-                    </li>
-                    <li>
-                        <a href="#resume">Resume</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
+  <body>
+    <header>
+      <h1>Tara Evans</h1>
+        <nav>
+          <ul>
+            <li>
+              <a href="#my-projects">My Projects</a>
+            </li>
+            <li>
+              <a href="#contact">Contact Me</a>
+            </li>
+            <li>
+              <a href=./resume.html>Resume</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
         
-        <section>
-                <img class="profile" src="./assets/images/79812-woman-illustration-businessperson-professional-cartoon-women_400x400.png">
-        </section>
-        <section>
-
-        </section>
-        <contact>
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <h2>About Me</h2>
+              <p>
+                I was born and raised just outside Peterborough, Ontario; cottage country.  I grew up on Pigeon Lake and have gone back to my roots, living once again on Pigeon Lake and I love it! I am currently working full-time as a letter carrier with Canada Post Corporation while also enrolled in Carleton University's Full Stack Coding Bootcamp.  My goal is to do a career change into the tech industry and obtain full-time remote employment, while fullfilling some side projects that have been on my to do list for quite some time. I learned to create webpages in the early 2000's while everything was written by hand on notepad! Over the years I have dabbled in graphic design as well as networking and hardware components.  Computers just seems to be where I gravitate to!
+              </p>
+          </div>
+          <div class="col-6">
+            <img class="profile" src="./assets/images/79812-woman-illustration-businessperson-professional-cartoon-women_400x400.png" alt="professional illustrated woman at a desk">
+          </div>
+        </div>
+      </div>
+       
+      <div class="container">
+        <div class="row">
+          <div class="col-4" id="contact">
+            <h3>PWD:</h3>
+              <p>
+                Need more information?<br/>
+                Let me know and I'll be happy to talk to you!
+              </p>
+            
             <address>
-                <div class="contact-info">
-                    <div>
-                      <h3>Me!:</h3>
-                      <p>
-                        Need more information?
-                        <br/>
-                        Let me know and I'll be happy to talk to you!
-                      </p>
-            
-                      <address>
-                        146 Westview Dr <br/>
-                        Omemee, ON <br/>
-                        K0L 2W0<br/>
-                        P: 705-875-7995<br/>
-                        E: <a href="mailto:Email">tarajevans@hotmail.com</a>
-                      </address>
-                      
-                    </div>
-            
-                    <div class="contact-form">
-                      <h3>Contact Us</h3>
-                      <form>
-                        <label for="contact-name">Your Name</label>
-                        <input type="text" id="contact-name" placeholder="Your Name" />
-                    
-                        <label for="contact-message">Message</label>
-                        <textarea id="contact-message" placeholder="Message"></textarea>
-                    
-                        <button type="submit">Submit</button>
-                      </form>
-                    </div>
-                    
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2851.855841191122!2d-78.50085968479914!3d44.37455047910315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d58648329851d7%3A0xf900dc1637a2582a!2s146%20Westview%20Dr%2C%20Omemee%2C%20ON%20K0L%202W0!5e0!3m2!1sen!2sca!4v1656773664380!5m2!1sen!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                  </div>
-                </section>
-              </address>
-        </contact>
+              146 Westview Dr <br/>
+              Omemee, ON <br/>
+              K0L 2W0<br/>
+              P: 705-875-7995<br/>
+              E: <a href="mailto:Email">tarajevans@hotmail.com</a>
+            </address>
+          </div>
+
+          <div class="col-4" id="contact-form">
+            <h3>Contact Me</h3>
+              <form>
+                <label for="contact-name">Your Name</label>
+                  <input type="text" id="contact-name" placeholder="Your Name" />
+                <label for="contact-message">Message</label>
+                  <textarea id="contact-message" placeholder="Message"></textarea>
+                <button type="submit">Submit</button>
+              </form>
+          </div>
+          <div class="col-4">
+            <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2851.855841191122!2d-78.50085968479914!3d44.37455047910315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d58648329851d7%3A0xf900dc1637a2582a!2s146%20Westview%20Dr%2C%20Omemee%2C%20ON%20K0L%202W0!5e0!3m2!1sen!2sca!4v1656773664380!5m2!1sen!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+
     </body>
     <footer>
 

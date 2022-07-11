@@ -31,7 +31,6 @@
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    background-image: url("./assets./images/");
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
@@ -70,6 +69,7 @@
   }
   .profile {
     float: right;
+    border-radius: 10px;
   }
   /* HEADER / NAVBAR STYLES END */
 /* CONTACT section */
@@ -111,8 +111,11 @@
   font-size: 16px;
   font-style: normal;
 }
+.contact-info a {
+  color: var(--quinary-color);
+}
 
-.contact-form input, .contact-form textarea {
+#contact-form input, #contact-form textarea {
   border: 1px solid var(--quaternary-color);
   display: block;
   padding: 7px 15px;
@@ -125,12 +128,12 @@
   background-color: rgba(255,255,255, 0.75);
 }
 
-.contact-form input:focus, .contact-form textarea:focus {
+#contact-form input:focus, #contact-form textarea:focus {
   background-color:var (--primary-color);
   outline: none;
 }
 
-.contact-form button {
+#contact-form button {
   width: 100%;
   border: none;
   background: var(--tertiary-color);
@@ -141,11 +144,10 @@
   border-radius: 10px;
 }
 
-.contact-form button:hover {
+#contact-form button:hover {
   color: var(--tertiary-color);
   background:var(--secondary-color);
 }
-
-.contact-info a {
-  color: var(--quinary-color);
+.iframe {
+  border-radius: 10px;
 }

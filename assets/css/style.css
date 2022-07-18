@@ -76,6 +76,8 @@
 /* CONTACT section */
 .contact {
   background: var(--primary-color);
+  padding: 20px 35px;
+  margin: 20px 0;
 }
 
 .contact h2 {
@@ -165,4 +167,8 @@ h4 span {
 }
 .project-images {
   border-radius: 10px;
+}
+.footer {
+  padding: 20px 35px;
+  margin: 20px 0;
 }

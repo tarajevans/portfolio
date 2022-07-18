@@ -158,3 +158,11 @@ text-align: start;
 h4 span {
   background-color: var(--secondary-color);
 }
+
+.col-6 {
+  padding: 20px 35px;
+  margin: 20px 0;
+}
+.project-images {
+  border-radius: 10px;
+}

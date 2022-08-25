@@ -19,7 +19,7 @@
   body {
     color: var(--quinary-color);
     background: var(--primary-color);
-    font-family: Courgette, cursive;
+    font-family: "Libre_Franklin", Arial, Helvetica, sans-serif;
   }
   /* Header and Nav Styles Start */
   header {

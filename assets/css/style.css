@@ -19,7 +19,7 @@
   body {
     color: var(--quinary-color);
     background: var(--primary-color);
-    font-family: "Libre_Franklin", Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif
   }
   /* Header and Nav Styles Start */
   header {
@@ -64,6 +64,9 @@
     color: var(--tertiary-color);
     border-radius: 15px;
     text-shadow: none;
+  }
+  .about {
+    text-shadow: 0 0 10px rgba(53, 45, 39, 0.5);
   }
   @media (max-width: 767px) {
     .profile {

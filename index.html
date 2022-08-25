@@ -6,7 +6,7 @@
     <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico"/> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre_Franklin&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Tara Evans</title>
@@ -18,13 +18,13 @@
         <nav>
           <ul>
             <li>
-              <h2><a href="#projects">My Projects</a></h2>
+              <a href="#projects">My Projects</a>
             </li>
             <li>
-              <h2><a href="#contact">Contact Me</a></h2>
+              <a href="#contact">Contact Me</a>
             </li>
             <li>
-              <h2><a href=./resume.html>Resume</a></h2>
+              <a href=./resume.html>Resume</a>
             </li>
           </ul>
         </nav>
@@ -38,8 +38,8 @@
                 I was born and raised just outside Peterborough, Ontario; cottage country.  I grew up on Pigeon Lake and have gone back to my roots, living once again on Pigeon Lake and I love it! I am currently working full-time as a letter carrier with Canada Post Corporation while also enrolled in Carleton University's Full Stack Coding Bootcamp.  My goal is to secure a career change in the tech industry and obtain full-time remote employment as a Front-End Developer.  I first learned to create webpages in the early 2000's while everything was written by hand on notepad! Over the years I have dabbled in graphic design as well as networking and hardware components.  Currently I am developing a couple of my own web projects that I have been excited about starting for the last little while.
               </p>
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-12">
-            <img class="profile" src="./assets/images/79812-woman-illustration-businessperson-professional-cartoon-women_400x400.png" alt="professional illustrated woman at a desk">
+          <div class="col-lg-6 col-md-6 col-sm-12 mb-3">
+            <img class="profile" alt="professional illustrated woman at a desk" src="./assets/images/79812-woman-illustration-businessperson-professional-cartoon-women_400x400.png" />
           </div>
         </div>
       </div>
@@ -47,40 +47,57 @@
       <div class="container" id="projects">
         <h3>My Projects</h3>
         <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
           <a href="https://tarajevans.github.io/weather-app/" target="_blank">
             <img class="project-images" alt="Weather App" src="./assets/images/weather.jpg"
-            width="450">
-          </a>
+            width="350">
+          </a><h4>Weather App</h4>
           </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12">
-            <a href="https://tarajevans.github.io/coffee-break/" target="_blank">
-              <img class="project-images" alt="Coffee Break" src="./assets/images/Coffee-Break.png"
+
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+          <a href="https://tarajevans.github.io/coffee-break/" target="_blank">
+            <img class="project-images" alt="Coffee Break" src="./assets/images/Coffee-Break.png"
               width="350">
-           </a>
-     
+          </a><h4>Coffee Break</h4>
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-12">
+
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
             <a href="https://tarajevans.github.io/password-generator/" target="_blank">
               <img class="project-images" alt="Password Generator" src="./assets/images/Password450.jpg"
               width="350">
-           </a>
+           </a><h4>Password Generator</h4>
           </div>
         </div>
+
         <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
             <a href="https://tarajevans.github.io/code-quiz/" target="_blank">
               <img class="project-images" alt="Code Quiz" src="./assets/images/emoji-riddles450.jpg"
               width="350">
-           </a>
+            </a><h4>Coding Quiz</h4>
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-12">
+
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+            <a href="https://github.com/tarajevans/readme-generator/blob/main/Develop/README.md" target="_blank">
+              <img class="project-images" alt="Readme Generator" src="./assets/images/readme.png"
+              width="350">
+            </a><h4>Readme Generator</h4>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+            <a href="https://github.com/tarajevans/employee-generator/blob/main/README.md" target="_blank">
+              <img class="project-images" alt="Employee Generator" src="./assets/images/Hello.jpg"
+              width="350">
+            </a><h4>Employee Generator</h4>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
             <a href="https://tarajevans.github.io/scheduled-chaos/" target="_blank">
               <img class="project-images" alt="Scheduled Chaos" src="./assets/images/Schedule450.jpg"
               width="350">
-           </a>
+            </a><h4>Daily Scheduler</h4>
           </div>
         </div>
       </div>
@@ -88,7 +105,7 @@
       <div class="container" id="contact">
         <div class="row">
           <div class="col-lg-4 col-md-6 col-sm-12">
-            <h3>Contact Me:</h3>
+            <h3><b>Contact Me:</b></h3>
               <p>
                 Need more information?<br/>
                 Let me know and I'll be happy to talk to you!
@@ -101,10 +118,18 @@
               P: 705-875-7995<br/>
               E: <a href="mailto:Email">tarajevans@hotmail.com</a>
             </address>
+            <div><a href="https://www.linkedin.com/in/taraevansshoplocal/" target="_blank">
+              <img class="project-icons" alt="Weather App" src="./assets/images/linkedIn.jpg"
+              width="80">
+            </a>
+            <a href="https://github.com/tarajevans" target="_blank">
+              <img class="project-icons" alt="Weather App" src="./assets/images/Github.png"
+              width="80">
+            </a></div>
           </div>
 
           <div class="col-lg-4 col-md-6 col-sm-12" id="contact-form">
-            <h3>Send Me a Message:</h3>
+            <h3><b>Send Me a Message:</b></h3>
               <form>
                 <label for="contact-name">Your Name</label>
                   <input type="text" id="contact-name" placeholder="Your Name" />

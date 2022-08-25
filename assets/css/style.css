@@ -21,11 +21,6 @@
     background: var(--primary-color);
     font-family: Courgette, cursive;
   }
-  @media (max-width: 780px) {
-    .hidden-mobile {
-      display: none;
-    }
-  }
   /* Header and Nav Styles Start */
   header {
     padding: 20px 35px;
@@ -61,6 +56,7 @@
   header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
+    font-size: 1.55vw;
     text-shadow: 0 0 10px rgba(53, 45, 39, 0.5);
   }
   header nav ul li a:hover {
@@ -68,6 +64,11 @@
     color: var(--tertiary-color);
     border-radius: 15px;
     text-shadow: none;
+  }
+  @media (max-width: 767px) {
+    .profile {
+      display: none;
+    }
   }
   .profile {
     float: right;
@@ -146,6 +147,11 @@
   border-radius: 10px;
   margin: 20px 0;
   max-width: 100%
+}
+.project-icons {
+  border-radius: 10px;
+  justify-content: space-between;
+  padding: 0 10px;
 }
 h4 {
 text-align: start;

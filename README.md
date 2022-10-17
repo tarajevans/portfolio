@@ -1,6 +1,6 @@
-# portfolio - Module 2<br><br>
+# portfolio<br><br>
 
-##Tara Evans Portfolio of Work<br><br>
+##Tara Evans Portfolio of Work - Module 2<br><br>
 
 A page that I can present to a potential employer to display my work so they can decide if I am a good candidate for a position.<br><br>
 

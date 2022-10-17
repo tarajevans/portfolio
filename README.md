@@ -1,6 +1,8 @@
 # portfolio<br><br>
 
-##Tara Evans Portfolio of Work - Module 2<br><br>
+## Advanced CSS - Module 2
+
+##Tara Evans Portfolio of Work<br><br>
 
 A page that I can present to a potential employer to display my work so they can decide if I am a good candidate for a position.<br><br>
 
@@ -11,6 +13,7 @@ Repository: https://github.com/tarajevans/portfolio<br><br>
 ![](assets/images/Screenshot.png)<br><br>
 
 User Story<br><br>
+
 AS AN employer<br>
 I WANT to view a potential employee's deployed portfolio of work samples<br>
 SO THAT I can review samples of their work and assess whether they're a good candidate for an open position<br><br>

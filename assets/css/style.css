@@ -185,13 +185,11 @@ header nav ul li a:hover {
   padding: 0 10px;
 }
 
-h4 {
-text-align: start;
+h3 span {
+  background-color: var(--secondary-color);
+  border-radius: 5%;
 }
 
-h4 span {
-  background-color: var(--secondary-color);
-}
 
 .col-6 {
   padding: 20px 35px;

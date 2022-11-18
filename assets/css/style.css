@@ -45,7 +45,7 @@ header {
 header h1 {
   font-weight: bold;
   margin: 0;
-  font-size: 36px;
+
   color: var(--quaternary-color);
   text-shadow: 0 0 10px rgba(53, 45, 39, 0.5);
 }
@@ -185,7 +185,7 @@ header nav ul li a:hover {
   padding: 0 10px;
 }
 
-h3 span {
+h2 span {
   background-color: var(--secondary-color);
   border-radius: 5%;
 }
